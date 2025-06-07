@@ -1,3 +1,6 @@
+//https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
+//Time :O(n^3)
+import java.util.*;
 class Solution{
     static int[][]dp;
     static int matrixMultiplication(int N, int arr[])
@@ -19,8 +22,10 @@ class Solution{
         }
         int ans=(int)1e9;
         for(int k=i; k<j; k++){
-            int temp=(arr[i-1]*arr[k]*arr[j])+f(arr,i,k)+f(arr,k+1,j);
-            ans=Math.min(ans,temp);
+            int right=f(arr,k+1,j);
+            int left=f(arr, i, k);
+            int currCost=arr[i-1]*arr[k]*arr[j];
+            ans=Math.min(ans,right+left+currCost);
         }
         return dp[i][j]=ans;
     }
