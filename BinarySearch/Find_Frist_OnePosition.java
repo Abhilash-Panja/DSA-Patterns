@@ -1,4 +1,4 @@
-package Dynamic_Programing.BinarySearch;
+package BinarySearch;
 /*
  In this Question we have Provided an Binary Array consisting of sarting with
  0's and followed by 1's. We have to find the first 1 in the array.
