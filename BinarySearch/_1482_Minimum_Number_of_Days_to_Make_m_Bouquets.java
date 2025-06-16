@@ -10,7 +10,8 @@ package BinarySearch;
  ->sweep
  ->Atomic item
  ->2D varient
- Current falls under sweep pattern BCZ we are enough foucused to check in contiguoes manner
+ Current falls under sweep pattern BCZ we are enough foucused to check in contiguoes manner.
+ Time:O(n*log(10^9));
  ---------------------------------------------------------------------------------------------
 */
 public class _1482_Minimum_Number_of_Days_to_Make_m_Bouquets {
