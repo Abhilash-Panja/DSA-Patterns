@@ -11,7 +11,7 @@ https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 ----------------------------------------------------------------------------------------------
 1.OverConfidently tried to attempt the Question without reading the problem statement carefully.
 2.Over looked the Statement that Every student must get at least one book.
-3.From point figuring out the edge case where number of students greater than the given length
+3.From point 2 figuring out the edge case where number of students greater than the given length
 of the array means where point 2 would be failed.
 ----------------------------------------------------------------------------------------------
                  Pattern Figure out     Time:O(N*Log(sum of (Array)))
